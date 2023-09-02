@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+
+* {
+    margin:0;
+}
+
+p{
+ 
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+
+.barraNavegacao{
+    display: flex;
+    background-color: black;
+    border-radius:3px ;
+    height: 5em;
+    max-height: 5em;
+    justify-content: center;
+    align-items: center;
+    gap : 2em;
+}
+
+h3{
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+body{
+    background-image: url("https://classic.exame.com/wp-content/uploads/2019/12/ccxp.gif?w=1024");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.rodape{
+    padding :1em;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.principal{
+    padding:25em;
+}
+
+.footer{
+    display: flex;
+    gap: 2em;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.facebook{
+    display: flex;
+    gap:1em;
+}
+
+.instagram{
+    display: flex;
+    gap:1em;
+
+}
+
+.twitter{
+    display: flex;
+    gap:1em;
+
+}
+
+.biggerTitle{
+    font-size: 3em;
+}
+.big_square{
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    padding: 2em;
+}
